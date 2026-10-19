@@ -40,3 +40,4 @@ $L['extensionfilter_col_action']            = 'Action';
 $L['extensionfilter_status_installed']      = 'Installed';
 $L['extensionfilter_status_notinstalled']   = 'Not installed';
 $L['extensionfilter_view']                  = 'Open';
+$L['extensionfilter_found'] = 'Found';

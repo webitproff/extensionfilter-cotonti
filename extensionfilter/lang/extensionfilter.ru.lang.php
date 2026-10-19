@@ -38,3 +38,4 @@ $L['extensionfilter_col_action']            = 'Действие';
 $L['extensionfilter_status_installed']      = 'Установлен';
 $L['extensionfilter_status_notinstalled']   = 'Не установлен';
 $L['extensionfilter_view']                  = 'Открыть';
+$L['extensionfilter_found'] = 'Найдено';

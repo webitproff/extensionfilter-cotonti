@@ -114,6 +114,8 @@ $t->assign([
     'TAB_PLUG_URL'      => cot_url('admin', ['m' => 'other', 'p' => 'extensionfilter', 'tab' => 'plug']),
     'TAB_MODULE_ACTIVE' => $isModule ? 'active' : '',
     'TAB_PLUG_ACTIVE'   => $isModule ? '' : 'active',
+	'TAB_CURRENT_TITLE' => $isModule ? Cot::$L['extensionfilter_tab_module'] : Cot::$L['extensionfilter_tab_plug'],
+	'TAB_CURRENT_ICON'  => $isModule ? 'fa-solid fa-cube' : 'fa-solid fa-plug',
     'FORM_URL'          => cot_url('admin', $baseParams),
     'RESET_URL'         => cot_url('admin', $baseParams),
     'TAB'               => $tab,
@@ -131,9 +133,11 @@ foreach ($filtered as $code => $info) {
         'a' => 'details',
         ($isModule ? 'mod' : 'pl') => $code,
     ]);
+	$params = cot_get_extensionparams($code, $isModule);
     $t->assign([
         'ROW_CODE'         => htmlspecialchars($code),
         'ROW_NAME'         => htmlspecialchars((string)($info['Name'] !== '' ? $info['Name'] : $code)),
+		'ROW_ICON'         => $params['icon'],
         'ROW_VERSION'      => htmlspecialchars((string)$info['Version']),
         'ROW_DESCRIPTION'  => htmlspecialchars((string)$info['Description']),
         'ROW_DETAILS_URL'  => $detailsUrl,
