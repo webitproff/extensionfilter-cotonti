@@ -14,6 +14,14 @@ A plugin for filtering and searching extensions (modules and plugins) in the Cot
 
 ---
 
+<img width="1920" height="1080" alt="extensionfilter_004" src="https://github.com/user-attachments/assets/8785dba6-85a5-4813-bf2f-fbf562b6219d" />
+<img width="1920" height="1080" alt="extensionfilter_001" src="https://github.com/user-attachments/assets/3b71e503-3412-41b2-a039-7898f63747b9" />
+<img width="1920" height="1080" alt="extensionfilter_002" src="https://github.com/user-attachments/assets/1d5b7785-6bda-42ce-9bc7-b27557c973e5" />
+<img width="1920" height="1080" alt="extensionfilter_003" src="https://github.com/user-attachments/assets/5682a4bb-73a1-4497-8cef-7df56d016461" />
+
+
+---
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
