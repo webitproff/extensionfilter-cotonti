@@ -167,6 +167,54 @@ https://<домен>/admin.php?m=extensions
 ```
 https://<домен>/admin.php?m=other&p=extensionfilter
 ```
+#### 1. to /themes/admin/cotcp/admin.extensions.tpl
+
+paste into `<!-- BEGIN: DEFAULT -->` ..... `<!-- END: DEFAULT -->`
+```html
+	<!-- IF {PHP|cot_plugin_active('extensionfilter')} -->
+	<div class="row g-2 mb-4">
+		<div class="col-12 col-lg-4">
+			<a class="btn w-100 rounded-0 border btn-primary"
+			href="{ADMIN_EXTENSIONFILTER_SEARCH_URL}">
+				{ADMIN_EXTENSIONFILTER_SEARCH_TITLE}
+			</a>
+		</div>
+		<div class="col-12 col-lg-4">
+			<a class="btn w-100 rounded-0 border btn-success"
+			href="{ADMIN_EXTENSIONFILTER_MODULES_URL}">
+				{ADMIN_EXTENSIONFILTER_MODULES_TITLE}
+			</a>
+		</div>
+		<div class="col-12 col-lg-4">
+			<a class="btn w-100 rounded-0 border btn-success"
+			href="{ADMIN_EXTENSIONFILTER_PLUGINS_URL}">
+				{ADMIN_EXTENSIONFILTER_PLUGINS_TITLE}
+			</a>
+		</div>
+	</div>
+	<!-- ENDIF -->
+
+```
+
+#### 2. to /themes/admin/cotcp/header.tpl
+paste into your nav menu
+```html
+	<!-- IF {PHP|cot_plugin_active('extensionfilter')} -->
+	<li<!-- IF {PHP.m} == 'other' AND {PHP.p} == 'extensionfilter' --> class="active"<!-- ENDIF -->>
+		<a href="{PHP|cot_url('admin', 'm=other&p=extensionfilter')}" title="{PHP.L.Extensions}">
+			<i class="fa-solid fa-puzzle-piece fa-xl"></i>
+		</a>
+	</li>
+	<!-- ELSE -->
+	<li<!-- IF {PHP.m} == 'extensions' AND !{PHP.a} --> class="active"<!-- ENDIF -->>
+		<a href="{PHP|cot_url('admin', 'm=extensions')}" title="{PHP.L.Extensions}">
+			<i class="fa-solid fa-puzzle-piece fa-xl"></i>
+		</a>
+	</li>
+	<!-- ENDIF -->
+```
+
+#### SEE screens
 
 ### 5.2. Установка через менеджер расширений Cotonti
 
