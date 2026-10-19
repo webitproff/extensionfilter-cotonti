@@ -13,6 +13,10 @@ A plugin for filtering and searching extensions (modules and plugins) in the Cot
 **Compatibility:** Cotonti v1.0+, PHP 8.5+, MySQL 8.4
 
 ---
+<img width="1295" height="809" alt="extensionfilter_2026-10-19 17 09 02" src="https://github.com/user-attachments/assets/5be63d18-cd4e-4789-aabb-93cadb609793" />
+
+<img width="1447" height="797" alt="Extensions Filter for Cotonti v1 +, PHP 8 5+, MySQL 8 4" src="https://github.com/user-attachments/assets/1f49ebbf-73ff-4755-9073-5df50039580a" />
+
 <img width="1920" height="1080" alt="extensionfilter_000" src="https://github.com/user-attachments/assets/6c6c4c91-c9df-42fa-843f-560af16e025e" />
 
 <img width="1920" height="1080" alt="extensionfilter_004" src="https://github.com/user-attachments/assets/8785dba6-85a5-4813-bf2f-fbf562b6219d" />
