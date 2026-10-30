@@ -8,7 +8,9 @@ A plugin for filtering and searching extensions (modules and plugins) in the Cot
 
 **License:** BSD-3-Clause
 
-**Version:** 1.0.3
+**Version:** 1.0.5
+
+**Date: Oct 30, 2026**
 
 **Compatibility:** Cotonti v1.0+, PHP 8.5+, MySQL 8.4
 
