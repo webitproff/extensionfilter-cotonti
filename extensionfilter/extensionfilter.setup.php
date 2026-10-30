@@ -5,8 +5,8 @@ Code=extensionfilter
 Name=Extensions Filter
 Category=administration
 Description=Search and filter modules and plugins in admin panel
-Version=1.0.3
-Date=2026-10-19
+Version=1.0.5
+Date=2026-10-30
 Author=webitpoff
 Copyright=(c) 2026 webitproff | https://github.com/webitproff/extensionfilter-cotonti
 Notes=
@@ -32,9 +32,9 @@ Recommends_plugins=
  * Support:          https://abuyfile.com/forums/cotonti/custom/
  * Source:           https://github.com/webitproff/extensionfilter-cotonti
  * 
- * Date: Oct 19, 2026
+ * Date: Oct 30, 2026
  * @package extensionfilter
- * @version 1.0.3
+ * @version 1.0.5
  * @author webitproff
  * @copyright Copyright (c) 2026 webitproff | https://github.com/webitproff/extensionfilter-cotonti
  * @license BSD
